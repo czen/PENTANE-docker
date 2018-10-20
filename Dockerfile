@@ -13,9 +13,9 @@ RUN apt-get update && \
     apt-get -y install python-zmq && \
     pip install h5json && \
     apt-get install -y python-watchdog && \
-	pip install -y virtualenv && \
+	pip install virtualenv && \
 	apt-get install -y python-future && \ 
-	apt-get -y install build-essential libffi-dev python-dev libportaudio2 && \
+	apt-get install -y build-essential libffi-dev python-dev libportaudio2 && \
 	pip install expyriment
 	
 # TODO: apache2, web2py, config, setup web2py to run from project location
