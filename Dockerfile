@@ -16,6 +16,10 @@ RUN apt-get update && \
 	pip install virtualenv && \
 	apt-get install -y python-future && \ 
 	apt-get install -y build-essential libffi-dev python-dev libportaudio2 && \
-	pip install expyriment
+	pip install expyriment && \
+	pip install ntplib && \
+	pip install websocket && \
+	pip install nose && \
+	pip install nose-exclude
 	
 # TODO: apache2, web2py, config, setup web2py to run from project location
