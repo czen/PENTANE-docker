@@ -12,6 +12,7 @@ RUN apt-get update && \
     apt-get -y install python-pandas && \
     apt-get -y install python-zmq && \
     pip install h5json && \
+	pip install h5pyd && \
     apt-get install -y python-watchdog && \
 	pip install virtualenv && \
 	apt-get install -y python-future && \ 
@@ -20,6 +21,8 @@ RUN apt-get update && \
 	pip install ntplib && \
 	pip install websocket && \
 	pip install nose && \
-	pip install nose-exclude
+	pip install nose-exclude && \
+	pip install sphinx && \
+	apt-get install sshpass
 	
 # TODO: apache2, web2py, config, setup web2py to run from project location
