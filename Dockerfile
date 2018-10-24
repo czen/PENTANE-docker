@@ -23,6 +23,6 @@ RUN apt-get update && \
 	pip install nose && \
 	pip install nose-exclude && \
 	pip install sphinx && \
-	apt-get install sshpass
+	apt-get install -y sshpass
 	
 # TODO: apache2, web2py, config, setup web2py to run from project location
