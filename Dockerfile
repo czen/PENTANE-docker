@@ -7,7 +7,7 @@ RUN apt-get update && \
     pip install numpy && \
     apt-get -y install python-tables && \
 	pip install setuptools && \
-    pip install rpyc=3.4.4 && \
+    pip install rpyc==3.4.4 && \
     pip install enum && \
     apt-get -y install python-pandas && \
     apt-get -y install python-zmq && \
