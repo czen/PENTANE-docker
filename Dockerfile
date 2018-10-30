@@ -7,7 +7,7 @@ RUN apt-get update && \
     pip install numpy && \
     apt-get -y install python-tables && \
 	pip install setuptools && \
-    pip install rpyc && \
+    pip install rpyc=3.4.4 && \
     pip install enum && \
     apt-get -y install python-pandas && \
     apt-get -y install python-zmq && \
@@ -25,5 +25,5 @@ RUN apt-get update && \
 	pip install sphinx && \
 	apt-get install -y sshpass && \
     apt-get install wget
-	
+    	
 # TODO: apache2, web2py, config, setup web2py to run from project location
