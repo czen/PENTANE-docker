@@ -23,6 +23,7 @@ RUN apt-get update && \
 	pip install nose && \
 	pip install nose-exclude && \
 	pip install sphinx && \
+	pip install scipy && \
 	apt-get install -y sshpass && \
     apt-get install wget
     	
