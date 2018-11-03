@@ -24,6 +24,7 @@ RUN apt-get update && \
 	pip install nose-exclude && \
 	pip install sphinx && \
 	pip install scipy && \
+	pip install mock && \
 	apt-get install -y sshpass && \
     apt-get install wget
     	
