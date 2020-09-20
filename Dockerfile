@@ -13,6 +13,7 @@ RUN apt-get install -y libportaudio2
 
 RUN pip install scipy matplotlib mne
 RUN pip install enum virtualenv sphinx
-RUN pip install h5pyd h5json
-    
+RUN pip install h5json
+
+# RUN pip install h5pyd
 # RUN pip install expyriment 
